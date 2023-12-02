@@ -5,8 +5,7 @@ SET time_zone = "+00:00";
 
 -- Database: `profile_db`
 
--- Table structure for table `users`
-
+-- Table structure 
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
@@ -22,17 +21,10 @@ CREATE TABLE `users` (
 
 -- Dumping data for table `users`
 
-
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `image`, `password`, `gender`, `date`) VALUES
 (?, '?', '?', '?', '?', '?', '?', '?');
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `users`
---
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
   ADD KEY `firstname` (`firstname`),
@@ -40,13 +32,7 @@ ALTER TABLE `users`
   ADD KEY `email` (`email`),
   ADD KEY `date` (`date`);
 
---
 -- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `users`
---
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
