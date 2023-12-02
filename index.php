@@ -71,27 +71,3 @@
 </body>
 </html>
 
-//github local to git repository terminal commands
-//git init
-//git add .
-//git commit -m "first commit"
-//git branch -M main
-//git remote add origin
-//
-//git push -u origin main
-//
-//git pull origin main
-//
-//git status
-//
-//git log
-//
-//git checkout -b branchname
-//
-//git checkout branchname
-//
-//git branch
-//how to add github link to local repository
-//git remote add origin
-//
-//git push -u origin main
