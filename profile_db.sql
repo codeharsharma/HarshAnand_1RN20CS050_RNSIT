@@ -24,7 +24,7 @@ CREATE TABLE `users` (
 
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `image`, `password`, `gender`, `date`) VALUES
-(6, 'xyz', 'z', 'xyz@gmail.com', 'uploads/1701502548user1.jpg', '$2y$10$PUh/h0Exbs1GY/6o5CsbauwyImZPwVJ6AH0aLTDOlJzncIJVWi386', 'Male', '2023-12-02 21:12:12');
+(?, '?', '?', '?', '?', '?', '?', '?');
 
 --
 -- Indexes for dumped tables
